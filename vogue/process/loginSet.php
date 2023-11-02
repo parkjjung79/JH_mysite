@@ -80,6 +80,7 @@ if($cnt){
         # 사용자 권한
         $_SESSION["auth"] = $row["auth"];
         
+        
         # 성공시
         echo "ok";
         
